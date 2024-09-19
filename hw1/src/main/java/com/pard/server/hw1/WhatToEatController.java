@@ -21,7 +21,7 @@ public class WhatToEatController {
         meals.add("웅짬뽕");
     }
 
-    // GET meal list http://localhost:8080/food/all
+    // GET meal list http://localhost:8080/food/list
     @GetMapping("/list")
     public List<String> getAllMeals() {
         return meals;
