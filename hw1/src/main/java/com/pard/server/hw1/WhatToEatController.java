@@ -1,4 +1,4 @@
-package com.server.pard.week3;
+package com.pard.server.hw1;
 
 import org.springframework.web.bind.annotation.*;
 
