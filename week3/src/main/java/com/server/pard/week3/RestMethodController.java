@@ -26,3 +26,6 @@ public class RestMethodController {
         return userId + "# user id deleted";
     }
 }
+
+
+//http://192.168.1.100:8080/users
