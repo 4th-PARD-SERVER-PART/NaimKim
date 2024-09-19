@@ -55,5 +55,7 @@ This project is a simple Spring Boot application that provides a "What to Eat(�
   </tr>
 </table>
 
-
+## 짝꿍 controller 실행해보기
+- 같은 와이파이 사용 후 완완 👀
+![image](https://github.com/user-attachments/assets/6e48ec68-5340-4bfe-a5a4-b5325b3a2e62)
 
