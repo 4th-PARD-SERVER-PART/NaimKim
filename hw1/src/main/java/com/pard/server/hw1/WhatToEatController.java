@@ -22,13 +22,13 @@ public class WhatToEatController {
     }
 
     // GET meal list http://localhost:8080/food/all
-    @GetMapping("/all")
+    @GetMapping("/list")
     public List<String> getAllMeals() {
         return meals;
     }
 
     // GET random recommendation http://localhost:8080/food/random
-    @GetMapping("/random")
+    @GetMapping("/recommend")
     public String getRandomMeal() {
         if (meals.isEmpty()) {
             return "추가하고 돌려.. 아무것도 없는데 어케 추천함!!!!";
