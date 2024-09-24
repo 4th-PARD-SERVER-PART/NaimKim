@@ -69,3 +69,8 @@ def hello_world():
     <td>월드</td>
   </tr>
 </table>
+
+# 다 모르겠다 하면 여기 클릭
+
+[여기 클릭 해서 그냥 바로 복붙해서 쓰세여~~~](https://github.com/4th-PARD-SERVER-PART/NaimKim/tree/main/hw1)
+
