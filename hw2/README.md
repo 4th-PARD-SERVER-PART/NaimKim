@@ -12,10 +12,10 @@ Protein Foods List CRUD API
 
 스크롤 귀찮은 당신을 위해..
 
-1. [음식 추가 (POST) - **CREATE**](#1-음식-추가-post)
-2. [저장된 음식 보기 (GET)- **READ**](#2-저장된-음식-보기-get)
-3. [음식 수정 (PUT) - **UPDATE**](#3-음식-수정-put)
-4. [음식 삭제 (DELETE) - **DELETE**](#4-음식-삭제-delete)
+1. [음식 추가 (POST) - **CREATE**](#1-post-음식-주가)
+2. [저장된 음식 보기 (GET)- **READ**](#2-get-저장되어있는-음식을-한눈에-보기)
+3. [음식 수정 (PUT) - **UPDATE**](#3-put-id-별-내용-수정)
+4. [음식 삭제 (DELETE) - **DELETE**](#4-delete-id-별-음식-삭제하기)
 
 ### 1. (POST) 음식 주가
 
