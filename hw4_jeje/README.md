@@ -37,7 +37,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 - **Endpoint**: `POST /user`
 - **Try it out json**:
  
-     ```json
+     ```json 
      {
        "name": "Naim Kim"
      }
