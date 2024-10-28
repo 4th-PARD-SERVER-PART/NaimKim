@@ -4,8 +4,8 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pard.server.hw4.like.entity.Like;
-import pard.server.hw4.user.entity.User;
+import pard.server.hw5.like.entity.Like;
+import pard.server.hw5.user.entity.User;
 
 import java.util.List;
 

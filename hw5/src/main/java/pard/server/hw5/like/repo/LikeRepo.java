@@ -1,9 +1,9 @@
-package pard.server.hw5.repo;
+package pard.server.hw5.like.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import pard.server.hw4.like.entity.Like;
-import pard.server.hw4.post.entity.Post;
-import pard.server.hw4.user.entity.User;
+import pard.server.hw5.like.entity.Like;
+import pard.server.hw5.post.entity.Post;
+import pard.server.hw5.user.entity.User;
 
 import java.util.Optional;
 

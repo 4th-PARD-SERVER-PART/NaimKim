@@ -1,6 +1,7 @@
 package pard.server.hw5.user.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,6 +15,10 @@ public class UserRequestDto {
     public static class UserCreateRequest {
         @NotBlank // Ensures name is provided on creation
         private String name;
+
+        @NotBlank
+        @Email // email format 확인해줌
+        private String email;
     }
 
     @Getter

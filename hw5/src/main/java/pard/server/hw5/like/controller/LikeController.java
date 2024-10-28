@@ -1,4 +1,4 @@
-package pard.server.hw5;
+package pard.server.hw5.like.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pard.server.hw4.like.service.LikeService;
+import pard.server.hw5.like.service.LikeService;
 
 @RestController
 @RequiredArgsConstructor

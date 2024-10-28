@@ -1,11 +1,11 @@
-package pard.server.hw5.entity;
+package pard.server.hw5.like.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pard.server.hw4.post.entity.Post;
-import pard.server.hw4.user.entity.User;
+import pard.server.hw5.post.entity.Post;
+import pard.server.hw5.user.entity.User;
 
 @Entity
 @Getter

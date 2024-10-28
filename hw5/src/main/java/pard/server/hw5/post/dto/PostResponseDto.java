@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pard.server.hw4.post.entity.Post;
+import pard.server.hw5.post.entity.Post;
 
 public class PostResponseDto {
     @Getter

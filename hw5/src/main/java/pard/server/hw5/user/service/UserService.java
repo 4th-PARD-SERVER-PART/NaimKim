@@ -2,11 +2,11 @@ package pard.server.hw5.user.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pard.server.hw4.post.dto.PostResponseDto;
-import pard.server.hw4.user.dto.UserRequestDto;
-import pard.server.hw4.user.dto.UserResponseDto;
-import pard.server.hw4.user.entity.User;
-import pard.server.hw4.user.repo.UserRepo;
+import pard.server.hw5.post.dto.PostResponseDto;
+import pard.server.hw5.user.dto.UserRequestDto;
+import pard.server.hw5.user.dto.UserResponseDto;
+import pard.server.hw5.user.entity.User;
+import pard.server.hw5.user.repo.UserRepo;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,9 +17,12 @@ public class UserService {
     private final UserRepo userRepo;
 
     // Create a new user
-    
     public void createUser(UserRequestDto.UserCreateRequest req) {
-        User user = new User(null, req.getName(), null);
+        // handle if null
+        if (req.getName() == null || req.getEmail() == null) {
+            throw new IllegalArgumentException("Name and email are required to create a user");
+        }
+        User user = new User(req.getName(), req.getEmail()); // Using constructor with name and email
         userRepo.save(user);
     }
 

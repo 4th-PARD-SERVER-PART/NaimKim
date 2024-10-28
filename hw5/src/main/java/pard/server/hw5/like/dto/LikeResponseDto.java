@@ -1,10 +1,10 @@
-package pard.server.hw5.dto;
+package pard.server.hw5.like.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pard.server.hw4.like.entity.Like;
+import pard.server.hw5.like.entity.Like;
 
 public class LikeResponseDto {
 

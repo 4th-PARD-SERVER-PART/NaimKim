@@ -22,7 +22,7 @@ public class SwaggerConfig {
     private Info apiInfo(){
         return new Info()
                 .title("Blog Platform Api")
-                .description("hw4")
+                .description("hw5")
                 .version("1.0.0");
     }
 }

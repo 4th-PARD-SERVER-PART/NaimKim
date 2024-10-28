@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pard.server.hw4.post.dto.PostResponseDto;
-import pard.server.hw4.user.entity.User;
+import pard.server.hw5.post.dto.PostResponseDto;
+import pard.server.hw5.user.entity.User;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -19,6 +19,7 @@ public class UserResponseDto {
     public static class UserRead {
         private Long id;
         private String name;
+        private String email;
         private List<PostResponseDto.PostRead> posts; // List of posts related to the user
 
         // Converts User entity to UserRead DTO
@@ -26,6 +27,7 @@ public class UserResponseDto {
             return new UserRead(
                     user.getId(),
                     user.getName(),
+                    user.getEmail(),
                     user.getPosts().stream().map(PostResponseDto.PostRead::from).collect(Collectors.toList())
             );
         }

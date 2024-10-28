@@ -4,10 +4,10 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pard.server.hw4.post.dto.PostResponseDto;
-import pard.server.hw4.user.dto.UserRequestDto;
-import pard.server.hw4.user.dto.UserResponseDto;
-import pard.server.hw4.user.service.UserService;
+import pard.server.hw5.post.dto.PostResponseDto;
+import pard.server.hw5.user.dto.UserRequestDto;
+import pard.server.hw5.user.dto.UserResponseDto;
+import pard.server.hw5.user.service.UserService;
 
 import java.util.List;
 

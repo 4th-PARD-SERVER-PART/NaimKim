@@ -3,12 +3,12 @@ package pard.server.hw5.post.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pard.server.hw4.post.dto.PostRequestDto;
-import pard.server.hw4.post.dto.PostResponseDto;
-import pard.server.hw4.post.entity.Post;
-import pard.server.hw4.post.repo.PostRepo;
-import pard.server.hw4.user.entity.User;
-import pard.server.hw4.user.repo.UserRepo;
+import pard.server.hw5.post.dto.PostRequestDto;
+import pard.server.hw5.post.dto.PostResponseDto;
+import pard.server.hw5.post.entity.Post;
+import pard.server.hw5.post.repo.PostRepo;
+import pard.server.hw5.user.entity.User;
+import pard.server.hw5.user.repo.UserRepo;
 
 import java.util.List;
 import java.util.stream.Collectors;

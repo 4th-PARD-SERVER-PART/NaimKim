@@ -1,4 +1,4 @@
-package pard.server.hw5.dto;
+package pard.server.hw5.like.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
