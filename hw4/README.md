@@ -1,26 +1,25 @@
-# 💻 Basic Blog Platform API
-This app is a simple CRUD (Create, Read, Update, Delete) platform that allows users to manage blog posts. 
+# 💻 간단한 블로그 플렛폼 API
 
-## Features:
+## 기능:
 
-1. **[User Management](#1-user-feature-testing)**
-  - **Create User**
-  - **Retrieve User Details**
-  - **Update User Information**
-  - **Delete User**
+1. **[유저 관리](#1-user-feature-testing)**
+  - **유저 추가**
+  - **유저 조회**
+  - **유저 정보 엡데이트**
+  - **유저 삭제**
 
-2. **[Post Management](#2-post-feature-testing)**
-  - **Create Post**
-  - **Retrieve All Posts**
-  - **Retrieve Post by ID**
-  - **Update Post**
-  - **Delete Post**
+2. **[계시글 관리](#2-post-feature-testing)**
+  - **계시글 작성**
+  - **하눈에 모든 계시글 보기**
+  - **ID 로 계시글 불러오기**
+  - **계시글 수정**
+  - **계시글 삭제**
 
-3. **[Like Toggle Feature](#3-like-feature-testing)**
-  - **Toggle Like** (Users can like or unlike a post)
+3. **[좋아요 기능](#3-like-feature-testing)**
+  - **좋아요 토글** (Users can like or unlike a post)
   - **Retrieve Like Count** (See the total number of likes for each post)
 
-### Test appliation using Swagger
+### Swagger 화룡앟여 test 하기
 'http://localhost:8080/swagger-ui/index.html#/'
 
 ---
@@ -31,7 +30,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 <tr>
 <td>
   
-#### a. **Create User**
+#### a. **유저 추가하기r**
 - **Endpoint**: `POST /user`
 - **Try it out json**:
  
@@ -53,7 +52,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 <tr>
 <td>
 
-#### b. **Retrieve User Details by ID**
+#### b. **유저 조회하기 by ID**
 
 - **Endpoint**: `GET /user/{userId}`
 - **Try it out**.
@@ -71,7 +70,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 <tr>
 <td>
 
-#### c. **Update User Information**
+#### c. **유저 정보 엡데이트**
 
 - **Endpoint**: `PATCH /user/{userId}`
 - **Try it out json**.
@@ -122,7 +121,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 <tr>
 <td>
 
-#### b. **Retrieve All Posts**
+#### b. **하눈에 모든 계시글 보기**
 
 - **Endpoint**: `GET /post`
 - **Results 👉👉👉**
@@ -138,7 +137,7 @@ This app is a simple CRUD (Create, Read, Update, Delete) platform that allows us
 <tr>
 <td>
 
-#### c. **Retrieve Post by ID**
+#### c. **ID 로 계시글 불러오기**
 
 - **Endpoint**: `GET /post/{postId}`
 - **Execute**.
