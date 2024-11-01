@@ -1,5 +1,5 @@
 # 💻 Basic Blog Platform API ( 이전 프로젝트에 이어..)
-유저 블로그 관리하는 간단한 앱!! 이전 프로젝트에 이어서 유저를 구글로그인으로 관리를 추가하였습니다 다른 기능확인은 ]hw4 README.md](https://github.com/4th-PARD-SERVER-PART/NaimKim/tree/main/hw4) 참고
+유저 블로그 관리하는 간단한 앱!! 이전 프로젝트에 이어서 유저를 구글로그인으로 관리를 추가하였습니다 다른 기능확인은 [hw4 README.md](https://github.com/4th-PARD-SERVER-PART/NaimKim/tree/main/hw4) 참고
 
 
 ---
