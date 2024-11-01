@@ -7,18 +7,26 @@
 
 - 앱을 실행하면 로이인 화면창이 뜬다. (html.. 은 GTP형이 만들어줬어용)
 <br/><br/>
-<img src="image-1.png" alt="Image" width="400px"/>
+<img src="image-1.png" alt="Image" width="800px"/>
+
 ---
+
 - 구글로그인 누르면 이 화면이 뜨면 성공! ( 세미나 5 때 만든 GCP 쓰기.. ㅎ)<br/><br/>
-<img src="image-2.png" alt="Image" width="400px"/>
+<img src="image-2.png" alt="Image" width="800px"/>
+
 ---
+
+
 - 로그인이 성공적으로 됐다면 /home 으로 direct!  (냥이 나오면 성공적)
 <br/><br/>
-<img src="image-5.png" alt="Image" width=400px/>
+<img src="image-5.png" alt="Image" width=800px/>
+
 ---
+
+
 - Swagger 통해서 유저 잘 저장 됐는지 확인하기!!
 <br/><br/>
-<img src="image-3.png" alt="Image" width=400px/>
+<img src="image-3.png" alt="Image" width=800px/>
 
 
 ---
