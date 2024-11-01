@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>로그인 Form</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -15,10 +15,10 @@
             <!-- Card Container for Form -->
             <div class="card">
                 <div class="card-header text-center">
-                    <h3>Login</h3>
+                    <h3>로그인</h3>
                 </div>
                 <div class="card-body">
-                    <!-- Login Form -->
+                    <!-- 로그인 Form -->
                     <form action="/login" method="post">
                         <div class="form-group">
                             <label for="username">Username:</label>
@@ -28,15 +28,15 @@
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="password" class="form-control" placeholder="Enter password" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        <button type="submit" class="btn btn-primary btn-block">로그인</button>
                     </form>
 
                     <!-- Divider -->
                     <hr>
 
-                    <!-- Google Login and Signup Links -->
+                    <!-- Google 로그인 and Signup Links -->
                     <div class="text-center">
-                        <a href="/oauth2/authorization/google" class="btn btn-danger btn-block">Sign in with Google</a>
+                        <a href="/oauth2/authorization/google" class="btn btn-danger btn-block">구글로 로그인하기</a>
                         <p class="mt-3">Don’t have an account? <a href="/joinForm">Sign up here</a></p>
                     </div>
                 </div>
